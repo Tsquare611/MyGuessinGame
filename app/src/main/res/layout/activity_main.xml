@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/title_text"
+          android:background="#FFC107"
+          android:gravity="center"
+          android:textStyle="bold"
+          android:padding="10dp"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+          >
+
+
+      </TextView>
+
+    <EditText
+        android:id="@+id/editText1Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_text"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textCursorDrawable="@null"
+        >
+
+    </EditText>
+<Button
+    android:id="@+id/checkButton1Id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/Base.Widget.AppCompat.Button.Colored"
+    android:layout_marginTop="20dp"
+android:layout_gravity="center"
+    android:text="@string/check_text"
+    >
+</Button>
+<TextView
+    android:id="@+id/wonTextViewId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+android:layout_marginTop="20dp"
+    >
+</TextView>
+
+<TextView
+android:id="@+id/lossTextViewId"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+android:layout_marginTop="20dp"
+    >
+</TextView>
+
+</LinearLayout>

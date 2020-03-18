@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyGuessingGame</string>
+    <string name="title_text">Guessing Game</string>
+    <string name="hint_text">Enter Your Guess Here Between 1 to 5</string>
+    <string name="check_text">CHECK</string>
+
+</resources>
